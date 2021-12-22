@@ -1,4 +1,6 @@
 #!/usr/bin/env python
+#test1
+
 import os
 import pdb
 
@@ -12,6 +14,9 @@ import argparse
 import importlib
 import threading
 import traceback
+import warnings
+warnings.filterwarnings("ignore", category=UserWarning)
+
 
 from tqdm import tqdm
 from utils import stdout_to_tqdm
